@@ -19,6 +19,7 @@ from flask import jsonify
 
 import firebase_admin
 from firebase_admin import credentials
+from firebase_admin import db
 
 cred = credentials.Certificate("/ripesight-firebase-adminsdk-8dne2-7a07c80392.json")
 firebase_admin.initialize_app(cred)
@@ -26,6 +27,11 @@ firebase_admin.initialize_app(cred)
 mainref = db.reference("https://ripesight-default-rtdb.firebaseio.com")
 
 def sendLoginToDatabase(username,password):
+    subref = db.reference("https://ripesight-default-rtdb.firebaseio.com/logininfo")
+    subref.push().set({
+            "Username": "{}".format(username),
+            "Password": "{}".format(username)
+        })
     
 
 
