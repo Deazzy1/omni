@@ -32,7 +32,6 @@ def sendLoginToDatabase(username,password):
             "Username": "{}".format(username),
             "Password": "{}".format(username)
         })
-    
 
 
 
