@@ -2432,4 +2432,36 @@ HEAD is now at 1db57a6 big update to comments, include tutorial link
 HEAD is now at 95b3d3d initial commit
 (cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1
 HEAD is now at 29a8476 Initial commit
-(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ [K(cv_env) ]0;~/omni[01;34m~/omni[00m$ 
+(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git reset --hard HEAD~1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K(cv_env) ]0;~/omni[01;34m~/omni[00m$ [K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git add . 
+(cv_env) ]0;~/omni[01;34m~/omni[00m$ g[Kgit commite[K "add interate [C[C[1@-[1@m[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P [1P [1P [1P [1P [1P [1P [1P [K[C i n t e r i t e [C p r o j e c t " 
+[main b97a194] add interite project
+ 13 files changed, 4135 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 app/..main.py-0-python3.term.init
+ create mode 100644 app/..main.py-0.term-0.term
+ create mode 100644 app/.main.py-0.term
+ create mode 100644 app/__pycache__/main.cpython-38.pyc
+ create mode 100644 app/__pycache__/main.cpython-39.pyc
+ create mode 100644 app/__pycache__/url_utils.cpython-38.pyc
+ create mode 100644 app/__pycache__/utils.cpython-38.pyc
+ create mode 100644 app/main.py
+ create mode 100644 app/templates/index.html
+ create mode 100644 app/templates/recipe_view.html
+ create mode 100644 app/templates/recipes.html
+ create mode 100644 app/templates/results.html
+(cv_env) ]0;~/omni[01;34m~/omni[00m$ [K(cv_env) ]0;~/omni[01;34m~/omni[00m$ [K(cv_env) ]0;~/omni[01;34m~/omni[00m$ [K(cv_env) ]0;~/omni[01;34m~/omni[00m$ git push
+Username for 'https://github.com': Deazzy1
+Password for 'https://Deazzy1@github.com': 
+To https://github.com/Deazzy1/omni
+ [31m! [rejected]       [m main -> main (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/Deazzy1/omni'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+(cv_env) ]0;~/omni[01;34m~/omni[00m$ git push
+Username for 'https://github.com': ^C
+(cv_env) ]0;~/omni[01;34m~/omni[00m$ git b[Kcheckout -b dev 
+Switched to a new branch 'dev'
+(cv_env) ]0;~/omni[01;34m~/omni[00m$ git checkout -b dev [C^C
+(cv_env) ]0;~/omni[01;34m~/omni[00m$ add . dev [K[K

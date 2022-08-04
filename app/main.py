@@ -25,8 +25,12 @@ firebase_admin.initialize_app(cred)
 
 mainref = db.reference("https://ripesight-default-rtdb.firebaseio.com")
 
-def sendToDatabase(filename):
-    pass
+def sendLoginToDatabase(username,password):
+    
+
+
+
+
 
 titles = []
 descs = []
